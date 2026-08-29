@@ -9,7 +9,9 @@ from keep_alive import keep_alive
 # CONFIG
 # =========================
 
-TOKEN = open("token.txt").read().strip()
+TOKENimport os
+TOKEN = os.getenv("TOKEN")
+
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
