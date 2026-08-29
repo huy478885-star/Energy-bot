@@ -3,13 +3,12 @@ from discord import app_commands
 from discord.ext import commands
 import sqlite3
 from keep_alive import keep_alive
-
+TOKENimport os
 
 # =========================
 # CONFIG
 # =========================
 
-TOKENimport os
 TOKEN = os.getenv("TOKEN")
 
 
