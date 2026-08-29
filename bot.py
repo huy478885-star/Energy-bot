@@ -264,4 +264,5 @@ async def admin_error(
 # =========================
 keep_alive()
 
+print("TOKEN CO NHAN DUOC:", bool(TOKEN))
 bot.run(TOKEN)
